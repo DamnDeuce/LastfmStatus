@@ -50,7 +50,7 @@
                     }
                 },
                 setUser: function(name) {
-                    _this.recentTrackUrl = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user="
+                    _this.recentTrackUrl = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user="
                         + name + "&api_key=" + _this.apiKey + "&limit=1&format=json";
                     _this.$userLink.attr("href", "http://www.last.fm/ru/user/" + options.user);
                 },
