@@ -1,0 +1,6 @@
+{
+  "name": "Lastfmstatus",
+  "tagline": "",
+  "body": "# LastfmStatus\r\nПлагин jQuery написан для показа текущего музыкального статуса выбранного пользователя сервиса Last.fm.\r\nНаписан для сайта [Justlook](http://justlook.ru/about/).\r\n<br>[Пример](https://damndeuce.github.io/LastfmStatus/demo.html).\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
