@@ -19,7 +19,7 @@
                 user: "DamnDeuce",
                 period: 3000,
                 autoStart: true,
-                showLastPlayed: false
+                showLastPlayed: true
             };
             var methods = {
                 getName: function() {
@@ -79,7 +79,9 @@
                                     methods.show();
                                 }
                                 _this.$track.text(track.artist["#text"] + " — " + track.name);
-                                _this.$track.attr('href', track.url || 'javascript:void(0)');
+                                var href = track.url || 'javascript:void(0)';
+                                href = href.replace(/https/, 'http');
+                                _this.$track.attr('href', href);
                             } else {
                                 methods.hide();
                             }
