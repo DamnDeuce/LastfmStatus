@@ -1,0 +1,23 @@
+{
+  "name": "LastfmStatus",
+  "homepage": "https://github.com/DamnDeuce/LastfmStatus",
+  "authors": [
+    "gosha <abramovgosha@gmail.com>"
+  ],
+  "description": "Translate lastfm status",
+  "main": "",
+  "keywords": [
+    "last.fm"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

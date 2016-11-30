@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Last.fm status</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+    <div class="input-wrap">
+        <input type="text" id="userName" placeholder="Имя пользователя Lastfm">
+        <a href="javascript:void(0)" id="setUser" class="button">Применить</a>
+    </div>
+
+    <p>Текущий статус:</p>
+    <div class="lastfm-status">
+        <a href="javascript:void(0)" target="blank" class="current-track">Loading...</a>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/class.LastfmStatus.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
